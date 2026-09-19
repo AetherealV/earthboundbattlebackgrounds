@@ -7,7 +7,7 @@ project:
   clock_hz:     25175000       # 25.175 MHz for 640x480 @ 60Hz
 
   tiles: "1x1"
-  top_module:  "tt_um_example"
+  top_module:  "tt_um_earthbound_battle_grounds"
 
   source_files:
     - "project.v"
