@@ -19,10 +19,6 @@ module tb ();
   wire [7:0] uio_oe;
 
   tt_um_example user_project (
-`ifdef GL_TEST
-      .vccd1(1'b1),
-      .vssd1(1'b0),
-`endif
       .ui_in  (ui_in),
       .uo_out (uo_out),
       .uio_in (uio_in),
